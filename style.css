@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*Nav Bar--> Start*/
+/*Nav Left--> Start*/
+Nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5F4FB;
+}
+.Nav_left {
+    display: flex;
+    justify-content: left ; 
+    align-items: center;
+}
+
+.Nav_left img {
+    width: 150px;
+}
+
+.Nav_left a {
+
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+
+}
+
+.Nav_left a:hover {
+    border-bottom: 5px solid #96318D;
+    transition: all 1s ease;
+}
+
+
+/*Nav Left--> End*/
+/*========================*/
+/*Nav Right--> Start*/
+
+.Nav_right {
+    padding-right: 20px;
+}
+
+.Nav_right button {
+    padding: 5px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 20px ;
+}
+
+.Nav_right button:hover {
+    background-color: #f8f9fa;
+    transition: all 1s ease;
+}
+/*Nav Right--> End*/
+/*Nav Bar--> End*/
+/*======================*/
+
+/*Line1--> Start*/
+
+.Line1_sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.Line1 {
+    background-image: url(Photos/blue_bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+
+}
+.Line1_sub {
+    display: flex;
+    width: 100%;
+}
+
+.Line1_text {
+    padding-left: 80px;
+    padding-bottom: 150px;
+    width: 50%;
+} 
+
+.span1 {
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+.span2 {
+    color: #96318D;
+}
+.Line1_sub p {
+    font-weight: 100;
+    font-size: 25px;
+    width: 90%; 
+    margin-top: 7%;
+    color: rgba(0,0,0,.5);
+    
+}
+
+.Line1_photo {
+
+
+width: 50%;
+}
+.Photo1 {
+    width: 700px;
+    
+}
+
+.Photo2 {
+    position: absolute;
+    top: 150px;
+    left: 65%;
+    width: 300px;
+
+}
+
+.Photo3 {
+    position: absolute;
+    top: 525px;
+    left: 60%;
+    width: 500px;
+}
+
+.Photo4 {
+   
+    position: absolute;
+    top: 93%;
+    right: 15%;
+    opacity: 1.5;
+    width: 1200px;
+}
+/*End of Line1
+=================*/
+/*Line 2 start*/
+
+.Line2 {
+    background-image:url(Photos/second_section_.png) ;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 90%;
+    marg-right: 100px;
+    
+}
+
+.Line2_sub {
+
+    margin-top: 100px;
+   margin-left: 100px;
+}
+
+.Delivery {
+ position: absolute;
+ top: 175%;
+ left: 2%;
+}
+
+.Delivery img {
+    width: 200px;
+}
+
+.Real  {
+    position: relative;
+    left: 410px;
+    top: 220px;
+
+
+} 
+
+.Real img {
+    width: 200px;
+}
+
+ .Discount {
+   margin-top: 350px;
+   margin-left: 900px;
+
+}
+
+.Discount img {
+    width: 200px;
+}
+.Why {
+    position: absolute;
+    top: 1300px;
+    left: 150px;
+}
+.Why img {
+    width: 300PX;
+}
+.Why_text1 {
+    position: relative;
+    top: 140px;
+    left: 70px;
+    color: white;
+    font-family: sans-serif;
+
+}
+.Why_text2 {
+    position: relative;
+    top: 150px;
+    left: 70px;
+    color: white;
+    font-size: 40px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/*End of Line2
+=================*/
+/*Line 3 start*/
+
+.Line3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Line3 div {
+    padding: 40px;
+}
+
+.Line3-1 img {
+    width: 150px;
+}
+.Line3-3 img {
+    width: 150px;
+}
+.Line3-2 img {
+    width: 300px;
+}
+
+
+.p1 {
+    padding-left: 30%;
+    font-weight: 150;
+    font-size: 15px;
+    color: rgb(0, 0, 0)
+}
+.p2 {
+    padding-left: 35%;
+    margin-top: 20px;
+    font-weight: 150;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.596)
+}
+.p3 {
+    padding-left: 36%;
+    font-weight: 150;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.596)
+}
+.p4 {
+    padding-left: 37%;
+    font-weight: 150;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.596)
+}
+.p5 {
+    padding-left: 37%;
+    font-weight: 150;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.596)
+}
+
+.Line3-Arrow {
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(148, 148, 148);
+    font-family: "Font Awesome 5 Free";
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  }
+
+
+
+.background img {
+    position: absolute;
+    width: 1000px;
+    height: 100%;
+    left: 50%;
+    top: 450%;
+    transform: translate(-50%, -50%) scale(2);
+
+  }
+
+
+
+.Line4-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.App_store {
+
+    width: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    z-index: 3;
+   
+}
+
+.Apple {
+   position: absolute;
+   top: 455%;
+   left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 3;
+    
+}
+.Apple img {
+    margin-right: 10px;
+    width: 25px;
+    height: 30px;
+    padding: 5px;
+    
+}
+
+.Android {
+    position: absolute;
+    top: 455%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 5px;
+   z-index: 3;
+    
+}
+
+
+.Android img  {
+    width: 30px;
+    height: 35px;
+    margin-right: 10px;
+    padding: 5px;
+    
+}
+
+.Download {
+    font-size: 10px;
+    padding: 10px 10px 0px 0;
+}
+.App_s {
+    font-size: 10px;
+    padding: 0px 10px 10px 0;
+}
+
+
+.Line4-right {
+    position: absolute;
+    top: 420%;
+    right: -5%;
+    z-index: 3;
+    margin-left: 300px;
+    overflow: hidden;
+    padding: 0;
+}
+.Line4-right img {
+
+    width: 600px;
+
+}
+
+.Icons {
+    position: absolute;
+    top: 470%;
+    left: 6%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    
+}
+.Icons img {
+    z-index: 3;
+    width: 40px;
+    padding: 0px 10px 0 10px;
+  
+   
+}
+
+.Line4_Links {
+    position: absolute;
+    top: 480%;
+    left: 6%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+z-index: 3;
+   
+}
+
+.Line4_Links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    size: 20px;
+
+}
